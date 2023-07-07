@@ -5,7 +5,7 @@ I Skolverkets bibliotek DNP åtkomsthantering finns dokumentation som
 beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
 ## Åtkomst till Skolverkets provtjänst för skolpersonal
-Den sammanfattande kravbilden för skolpersonals åtkomst till Skolverkets provtjänst,
+Den övergripande kravbilden för skolpersonals åtkomst till Skolverkets provtjänst,
 är att e-legitimering ska ske på minst tillitsnivå 2 enligt
 [Tillitsramverket för kvalitetsmärket Svensk e-legitimation](https://www.digg.se/digitala-tjanster/e-legitimering/tillitsnivaer-for-e-legitimering/tillitsramverk-for-svensk-e-legitimation) vid hantering och genomförande av digitala nationella prov och bedömningsstöd i Skolverkets provtjänst.
 
