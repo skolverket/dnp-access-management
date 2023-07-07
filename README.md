@@ -15,10 +15,8 @@ Det övergripande kravet för skolpersonals åtkomst till Skolverkets provtjäns
 Grundförutsättningen för att ansluta sig till Skolverkets provtjänst är att e-legitimeringen sker med en av DIGG godkänd e-legitimation på lägst tillitnivå 2. Skolverket ställer inte krav på att själva identitetsintygsutfärdaren (IdP) ska vara granskad och godkänd av DIGG. Identiteten på den som ansluter ska presenteras i form av ett eppn som också måste finnas provisionerat i provtjänsten. För att identitetsintygsutfärdaren (IdP) på ett korrekt sätt ska kunna presentera detta för Skolverkets provtjänst finns vissa förutsättningar.
 
 
+>[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå]
 
-
-
->[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå](Signalering av tillitsnivå till Skolverkets provtjänst vid inloggning med e-legitimation.pdf)
 
 **Notera att arbetet med digitala nationella prov (DNP) är ett pågående projekt och att
 materialet i DNP användarhantering uppdateras kontinuerligt.** Det är inte fastställd
