@@ -18,7 +18,7 @@ Grundförutsättningen för att ansluta sig till Skolverkets provtjänst är att
 
 
 
->[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå](./docs/Signalering%20av%20tillitsnivå%20till%20Skolverkets%20provtjänst%20vid%20inloggning%20med%20e-legitimation.pdf)
+>[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå](./Signalering%20av%20tillitsnivå%20till%20Skolverkets%20provtjänst%20vid%20inloggning%20med%20e-legitimation.pdf)
 
 **Notera att arbetet med digitala nationella prov (DNP) är ett pågående projekt och att
 materialet i DNP användarhantering uppdateras kontinuerligt.** Det är inte fastställd
