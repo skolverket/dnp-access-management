@@ -12,7 +12,7 @@ Det övergripande kravet för skolpersonals åtkomst till Skolverkets provtjäns
 ![bild1](https://github.com/skolverket/dnp-access-management/assets/138761912/b6561e4a-3d19-4896-9681-be70fcc72d5a)
 
 
-Grundförutsättningen för att ansluta sig till Skolverkets provtjänst är att e-legitimeringen sker med en av DIGG godkänd e-legitimation på lägst tillitnivå 2. Skolverket ställer inte krav på att själva identitetsintygsutfärdaren (IdP) ska vara granskad och godkänd av DIGG. Identiteten på den som ansluter ska presenteras i form av ett eppn som också måste finnas provisionerat i provtjänsten. För att identitetsintygsutfärdaren (IdP) på ett korrekt sätt ska kunna presentera detta för Skolverkets provtjänst finns vissa förutsättningar.
+Grundförutsättningen för att personal ska kunna ansluta sig till Skolverkets provtjänst är att e-legitimeringen sker med en av DIGG godkänd e-legitimation på lägst tillitnivå 2. Skolverket ställer inte krav på att själva identitetsintygsutfärdaren (IdP) ska vara granskad och godkänd av DIGG. Identiteten på den som ansluter ska presenteras i form av ett eppn som också måste finnas provisionerat i provtjänsten. För att identitetsintygsutfärdaren (IdP) på ett korrekt sätt ska kunna presentera detta för Skolverkets provtjänst finns vissa förutsättningar.
 
 
 >[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå](./docs/Signalering%20av%20tillitsniva%CC%8A%20till%20Skolverkets%20provtja%CC%88nst%20vid%20inloggning%20med%20e-legitimation.pdf)
