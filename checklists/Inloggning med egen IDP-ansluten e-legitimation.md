@@ -68,5 +68,5 @@ e-legitimation**
     Skolverket inte kräver att Skolhuvudmannens IDP är granskad, endast
     att e-legitimationen är godkänd.
 
-4.  Genomför ett tekniskt verifieringstest för att se att det fungerar
-    **HÄR \[Länk till Fidustest med krav på e-legitimation\]**
+4.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+    **[här](https://fidustest.skolverket.se/DNP/)**
