@@ -1,4 +1,4 @@
-**Checklista för inloggning <ins>utan</ins> e-legitimation**
+**Checklista för inloggning med egen IDP <ins>utan</ins> e-legitimation**
 
 1.  Grundförutsättningen för att inloggningen mot provtjänsten ska
     fungera är att Skolhuvudmannen har tillgång till en egen
