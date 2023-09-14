@@ -13,9 +13,9 @@
     SAML-intyg som innehåller användarens eduPersonPrincipalName (EPPN)
     med;\
     \
-    FriendlyName=\"eduPersonPrincipalName\",\
+    *FriendlyName=\"eduPersonPrincipalName\",\
     Name=\"urn:oid:1.3.6.1.4.1.5923.1.1.1.6\" samt
-    NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\
+    NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"*\
     \
     **OBS!**\
     För att det ska fungera så är viktigt att NameFormat används.
@@ -28,13 +28,13 @@
     IDP-metadatat som *Extensions* direkt efter elementet
     *IDPSSODescriptor*, se exempel;\
     \
-    \<IDPSSODescriptor
+    *\<IDPSSODescriptor
     protocolSupportEnumeration=\"urn:oasis:names:tc:SAML:2.0:protocol\"\>\
     \
     \<Extensions\>\
     \<shibmd:Scope xmlns:shibmd=\"urn:mace:shibboleth:metadata:1.0\"\
-    regexp=\"false\"\>**exempel.se**\</shibmd:Scope\>\
-    \</Extensions\>\
+    regexp=\"false\"\>exempel.se\</shibmd:Scope\>\
+    \</Extensions\>*\
     \
     **OBS!**\
     För att det ska fungera så är viktigt att *scope* i EPPN stämmer med
