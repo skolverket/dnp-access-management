@@ -19,5 +19,5 @@ e-legitimation**
         påföras inloggningen när e-legitimation krävs och personalen då inte
         få åtkomst till provtjänsten.
 
-3.  Genomför ett tekniskt verifieringstest för att se att det fungerar
-    **HÄR \[Länk till Fidustest med krav på e-legitimation\]**
+3.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+    **[här](https://fidustest.skolverket.se/DNP/)**
