@@ -15,7 +15,7 @@ användas för inloggning mot provtjänsten.
 e-legitimation](.%2Fchecklists%2FInloggning%20med%20egen%20IDP-ansluten%20e-legitimation.md)
 
 Den här checklistan riktar sig till de skolhuvudmän som har en egen IDP-ansluten e-legitimation
-godkänd av DIGG på tillitsnivå 2, 3 eller 4. Observera att checklistan för Inloggning utan e-legitimation bör gås igenom före denna checklista.
+godkänd av DIGG på tillitsnivå 2, 3 eller 4. Observera att checklistan för inloggning utan e-legitimation bör gås igenom före denna checklista.
 
 >[Checklista för inloggning med eduID som e-legitimation](.%2Fchecklists%2FInloggning%20med%20eduID%20som%20e-legitimation.md)
 
