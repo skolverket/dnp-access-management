@@ -23,18 +23,18 @@ e-legitimation**
     Detta deklareras i IDP-metadatat som *Extensions* direkt efter
     elementet *EntityDescriptor*, se exempel;\
     \
-    *\<EntityDescriptor xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"
-    xmlns:saml=\"urn:oasis:names:tc:SAML:2.0:assertion\"
-    xmlns:shibmd=\"urn:mace:shibboleth:metadata:1.0\"
-    entityID=\"http://idp.exempel.se/\"\>\
-    \
-    \<Extensions\>\<mdattr:EntityAttributes
-    xmlns:mdattr=\"urn:oasis:names:tc:SAML:metadata:attribute\"\>\<saml:Attribute
+    *\<EntityDescriptor xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#"
+    xmlns:saml=\"urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:shibmd=\"urn:mace:shibboleth:metadata:1.0"
+    entityID=\"http://idp.exempel.se/">*
+    
+    *\<Extensions\>\<mdattr:EntityAttributes
+    xmlns:mdattr=\"urn:oasis:names:tc:SAML:metadata:attribute">\<saml:Attribute
     Name=\"urn:oasis:names:tc:SAML:attribute:assurance-certification\"
-    NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\>\<saml:AttributeValue\>https://fidus.skolverket.se/authentication/e-leg\</saml:AttributeValue\>\</saml:Attribute\>\</mdattr:EntityAttributes\>\
+    NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\>\<saml:AttributeValue\>https://fidus.skolverket.se/authentication/e-leg</saml:AttributeValue\>\</saml:Attribute\>\</mdattr:EntityAttributes\>\
     \</Extensions\>*
 
-3.  Provtjänstens åtkomstgateway kommer i autentiseringsbegäran till IDP
+4.  Provtjänstens åtkomstgateway kommer i autentiseringsbegäran till IDP
     att skicka en lista med tillitsnivåer (Requested Authentication
     Context) som är godkända att använda. Se exempel på lista;\
     \
@@ -68,5 +68,5 @@ e-legitimation**
     Skolverket inte kräver att Skolhuvudmannens IDP är granskad, endast
     att e-legitimationen är godkänd.
 
-4.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+5.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
     **[här](https://fidustest.skolverket.se/DNP/)**
