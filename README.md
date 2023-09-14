@@ -6,7 +6,7 @@ beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
 ## Tekniska checklistor för att inloggning mot provtjänsten ska fungera
 
->[Checklista för inloggning utan e-legitimation](.%2Fchecklists%2FChecklista%20f%C3%B6r%20att%20inloggning%20utan%20e-legitimation%20ska%20fungera.md)
+>[Checklista för inloggning med egen IDP utan e-legitimation](.%2Fchecklists%2FInloggning%20med%20egen%20IDP%20utan%20e-legitimation.md)
 
 Den här checklistan riktar sig till alla skolhuvudmän med egen inloggningstjänst (IDP) som ska
 användas för inloggning mot provtjänsten.
@@ -17,7 +17,7 @@ e-legitimation](.%2Fchecklists%2FInloggning%20med%20egen%20IDP-ansluten%20e-legi
 Den här checklistan riktar sig till de skolhuvudmän som har en egen IDP-ansluten e-legitimation
 godkänd av DIGG på tillitsnivå 2, 3 eller 4. Observera att checklistan för inloggning utan e-legitimation bör gås igenom före denna checklista.
 
->[Checklista för inloggning med eduID som e-legitimation](.%2Fchecklists%2FInloggning%20med%20eduID%20som%20e-legitimation.md)
+>[Checklista för inloggning med egen IDP och eduID som e-legitimation](.%2Fchecklists%2FInloggning%20med%20egen%20IDP%20och%20eduID%20som%20e-legitimation.md)
 
 Den här checklistan riktar sig till alla skolhuvudmän som ska använda eduID som e-legitimation. Observera att checklistan för Inloggning utan e-legitimation bör gås igenom före denna checklista.
 
