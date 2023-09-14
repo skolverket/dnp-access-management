@@ -6,12 +6,13 @@ beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
 ## Checklistor för att inloggning mot provtjänsten ska fungera
 
-**Checklista: Inloggning </ins>utan</ins> e-legitimation** 
-
-(checklists/Checklista för att inloggning utan e-legitimation ska fungera.md)
+>[Checklista: Inloggning utan e-legitimation](.%2Fchecklists%2FChecklista%20f%C3%B6r%20att%20inloggning%20utan%20e-legitimation%20ska%20fungera.md)
 
 Används av alla skolhuvudmän med egen inloggningstjänst som ska
 användas för inloggning mot provtjänsten.
+
+>[Checklista: Inloggning med egen IDP-ansluten
+e-legitimation](.%2Fchecklists%2FInloggning%20med%20egen%20IDP-ansluten%20e-legitimation.md)
 
 **Checklista: Inloggning </ins>med</ins> egen IDP-ansluten
 e-legitimation**
