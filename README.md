@@ -4,7 +4,7 @@ Skolverket digitaliserar de nationella proven (DNP).
 I Skolverkets bibliotek DNP åtkomsthantering finns dokumentation som
 beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
-## Checklistor för att inloggning mot provtjänsten ska fungera
+## Tekniska checklistor för att inloggning mot provtjänsten ska fungera
 
 >[Checklista för inloggning utan e-legitimation](.%2Fchecklists%2FChecklista%20f%C3%B6r%20att%20inloggning%20utan%20e-legitimation%20ska%20fungera.md)
 
