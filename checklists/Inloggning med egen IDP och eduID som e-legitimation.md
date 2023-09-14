@@ -1,10 +1,10 @@
-**Checklista för inloggning m<ins>med</ins> eduID som
+**Checklista för inloggning med egen IDP och eduID som
 e-legitimation**
 
 1.  Grundförutsättningar för att inloggning med eduID som e-legitimation
     ska fungera är;
 
-    a.  Inloggning utan e-legitimation inloggning fungerar enligt checklista och tekniskt verifieringstest
+    a.  Inloggning med egen IDP utan e-legitimation fungerar enligt checklista och tekniskt verifieringstest
 
     b.  Att Skolhuvudmannen beställt eduID som e-legitimation via
         Skolverkets e-tjänst
