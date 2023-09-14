@@ -1,5 +1,4 @@
-**Checklista för att inloggning [utan]{.underline} e-legitimation
-ska fungera**
+**Checklista: Inloggning <ins>utan</ins> e-legitimation**
 
 1.  Grundförutsättningen för att inloggningen mot provtjänsten ska
     fungera är att Skolhuvudmannen har tillgång till en egen
@@ -43,5 +42,5 @@ ska fungera**
     Åtkomstgateway inte släppa igenom användarens EPPN till provtjänsten
     och användaren kommer inte lyckas med inloggningen.
 
-5.  Genomför ett tekniskt verifieringstest för att se att det fungerar
-    **HÄR \[Länk till Fidustest\]**
+5.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+    **[här](https://fidustest.skolverket.se/DNP/)**
