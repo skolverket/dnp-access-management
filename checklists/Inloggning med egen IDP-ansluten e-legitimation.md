@@ -39,17 +39,17 @@ e-legitimation**
     Context) som är godkända att använda. Se exempel på lista;\
     \
     *\<ns0:RequestedAuthnContext Comparison=\"exact\"\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa2\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa3\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa4\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa2\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa3\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa2-nonresident\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa3-nonresident\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa4-nonresident\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-low\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-sub\</ns1:AuthnContextClassRef\>
-    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-high\</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa2</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa3</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/loa4</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa2</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa3</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa2-nonresident</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa3-nonresident</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/loa4-nonresident</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-low</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-sub</ns1:AuthnContextClassRef\>
+    \<ns1:AuthnContextClassRef\>http://id.elegnamnden.se/loa/1.0/nf-high</ns1:AuthnContextClassRef\>
     \</ns0:RequestedAuthnContext\>*\
     \
     \
@@ -58,7 +58,7 @@ e-legitimation**
     \
     *\<saml2:AuthnStatement AuthnInstant=\"2023-09-13T09:54:02Z\"\>
     \<saml2:AuthnContext\>
-    \<saml2:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa2\</saml2:AuthnContextClassRef\>
+    \<saml2:AuthnContextClassRef\>http://id.swedenconnect.se/loa/1.0/uncertified-loa2</saml2:AuthnContextClassRef\>
     \</saml2:AuthnContext\> \</saml2:AuthnStatement\>*\
     \
     **Obs!**\
