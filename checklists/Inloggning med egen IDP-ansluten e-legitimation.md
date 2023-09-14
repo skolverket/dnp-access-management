@@ -1,4 +1,4 @@
-**Checklista: Inloggning <ins>med</ins> egen IDP-ansluten
+**Checklista för inloggning <ins>med</ins> egen IDP-ansluten
 e-legitimation**
 
 1.  Grundförutsättningar för att inloggning med egen IDP-ansluten
