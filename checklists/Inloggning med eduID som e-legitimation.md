@@ -1,4 +1,4 @@
-**Checklista för inloggning <ins>med</ins> eduID som
+**Checklista för inloggning med egen IDP och <ins>med</ins> eduID som
 e-legitimation**
 
 1.  Grundförutsättningar för att inloggning med eduID som e-legitimation
