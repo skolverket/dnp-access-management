@@ -14,7 +14,7 @@ e-legitimation**
 
     d.  Att Skolhuvudmannen via Skolverkets provisioneringstjänst
         provisionerat en id-länkning mellan personalens EPPN och deras
-        eduID-EPPN\
+        eduID-EPPN. Läs mer om provisionering och id-länkning [här](https://github.com/skolverket/dnp-usermanagement).\
         \
         **OBS!**\
         Utan en korrekt id-länkning kommer inte eduID som e-legitimation att
