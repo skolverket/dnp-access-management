@@ -4,7 +4,27 @@ Skolverket digitaliserar de nationella proven (DNP).
 I Skolverkets bibliotek DNP åtkomsthantering finns dokumentation som
 beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
-## Åtkomst för skolpersonal till Skolverkets provtjänst 
+## Checklistor för att inloggning mot provtjänsten ska fungera
+
+**Checklista: Inloggning </ins>utan</ins> e-legitimation** 
+
+(checklists/Checklista för att inloggning utan e-legitimation ska fungera.md)
+
+Används av alla skolhuvudmän med egen inloggningstjänst som ska
+användas för inloggning mot provtjänsten.
+
+**Checklista: Inloggning </ins>med</ins> egen IDP-ansluten
+e-legitimation**
+
+Används av de skolhuvudmän som har en egen IDP-ansluten e-legitimation
+godkänd av DIGG på tillitsnivå 2, 3 eller 4. Observera att checklista för Inloggning </ins>utan</ins> e-legitimation ska gås igenom före denna checklista.
+
+**Checklista (2b) för att inloggning [med]{.underline} eduID som
+e-legitimation ska fungera**
+
+Används av alla skolhuvudmän som ska använda eduID som e-legitimation.
+
+## Mer information om åtkomst för skolpersonal till Skolverkets provtjänst 
 Det övergripande kravet för skolpersonals åtkomst till Skolverkets provtjänst
 är att e-legitimering ska ske på tillitsnivå 2, 3 eller 4 enligt
 [Tillitsramverket för kvalitetsmärket Svensk e-legitimation](https://www.digg.se/digitala-tjanster/e-legitimering/tillitsnivaer-for-e-legitimering/tillitsramverk-for-svensk-e-legitimation) vid hantering och genomförande av digitala nationella prov och bedömningsstöd i Skolverkets provtjänst.
