@@ -6,7 +6,17 @@ beskriver hur åtkomst hanteras i Skolverkets provtjänst.
 
 ## Testmiljö för tester av inloggning mot digitala nationella prov
 
-Skolverket tillhandahåller en testmiljö för tekniska verifieringstester där inloggning mot provtjänsten kan testas.
+Skolverket tillhandahåller en testmiljö för tekniska verifieringstester där inloggning mot provtjänsten kan testas för olika scenarion med och utan e-legitimation. Utgångspunkterna för testerna är Fidustest som är en service provider som ingår i FIDUS för produktion och FIDUS Test. Fidustest 
+
+![Testmiljö](./images/fidustest.png)
+
+>https://fidustest.skolverket.se/DNP/
+
+Används för tester mot FIDUS i produktion dvs samma tekniska miljö som Skolverkets provtjänst i produktion använder.
+
+>https://fidustest.skolverket.se/DNP-staging/
+
+Är en separat testmiljö som även innefattar federationers testmiljöer tex Skolfederation Trial. Den här miljön har ingen koppling till Skolverkets provtjänst i produktion.
 
 ## Tekniska checklistor för inloggning mot Skolverkets provtjänst
 
