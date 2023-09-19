@@ -7,7 +7,7 @@ e-legitimation**
     a.  Inloggning med egen IDP utan e-legitimation fungerar enligt checklista och tekniskt verifieringstest
 
     b.  Att Skolhuvudmannen beställt eduID som e-legitimation via
-        Skolverkets e-tjänst
+        Skolverkets e-tjänst Administration provtjänsten
     
     c.  Att Skolhuvudmannens personal innehar ett eduID-konto och
         anslutit en FIDO-token
