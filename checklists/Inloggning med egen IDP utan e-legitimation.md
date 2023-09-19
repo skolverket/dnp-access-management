@@ -8,8 +8,10 @@
 2.  Provtjänstens Åtkomstgateway (med
     entityID=<https://skolverket.eduid.se/dnp/sp/>) måste finnas uppsatt
     som en service provider (SP) i inloggningstjänsten.
+    *Notera: Vid tidigare tester med Fidustest användes Skolverkets åtkomstgateway trial med entityID=https://idpproxy.dev.eduid.se/sp.
+    Denna byttes ut mot ovanstående åtkomstgateway prod (15 september 2023).*
 
-3.  I samband med inloggning skall inloggningstjänsten ställa ut ett
+4.  I samband med inloggning skall inloggningstjänsten ställa ut ett
     SAML-intyg som innehåller användarens eduPersonPrincipalName (EPPN)
     med;\
     \
@@ -23,7 +25,7 @@
     igenom användarens EPPN till provtjänsten och användaren kommer inte
     lyckas med inloggningen. En nödlösning som visat sig fungera om inte NameFormat kan konfigureras i IDP är att skicka Name=\"eduPersonPrincipalName\" utan NameFormat.
 
-4.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
+5.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
     IDP-metadatat som *Extensions* direkt efter elementet
     *IDPSSODescriptor*, se exempel;\
@@ -42,5 +44,5 @@
     Åtkomstgateway inte släppa igenom användarens EPPN till provtjänsten
     och användaren kommer inte lyckas med inloggningen.
 
-5.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+6.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
     **[här](https://fidustest.skolverket.se/DNP/)**
