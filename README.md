@@ -37,7 +37,7 @@ Den här checklistan riktar sig till alla skolhuvudmän som ska använda eduID s
 
 ## FAQ
 I vår FAQ samlar vi svar på vanliga förekommande frågor och lösningar på problem som andra användare stött i samband med uppsättning av inloggning mot Skolverkets provtjänst.
->[FAQ hittar här](./docs/faq.md)
+>[FAQ hittar här](./docs/FAQ.md)
 
 
 ## Mer information om åtkomst för skolpersonal till Skolverkets provtjänst 
