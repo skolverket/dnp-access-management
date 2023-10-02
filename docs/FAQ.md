@@ -23,7 +23,7 @@ Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:
 **2. Vi har en godkänd e-legitimation ansluten till vår IDP men när Skolpersonalen loggar in så blir det bara vanlig inloggning med användarnamn och lösenord, och dom kommer då inte in i Provtjänsten**\
 \
 **Svar:**\
-Ett vanligt fel när inte flödet för egen IDP med ansluten e-legitimation fungerar är att stödet inte deklarerat korrekt i federationens metadata. Kontrollera att deklarationen överensstämmer med nedanstående:\
+Ett vanligt fel när inte flödet för egen IDP med ansluten e-legitimation fungerar är att stödet inte deklarerat korrekt i federationens metadata. Kontrollera att deklarationen överensstämmer med nedanstående:
 
 *\<EntityDescriptor xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#"
 xmlns:saml=\"urn:oasis:names:tc:SAML:2.0:assertion"
