@@ -2,7 +2,7 @@
 
 Här samlar vi svar på vanliga förekommande frågor och lösningar på problem som andra användare stött i samband med uppsättning av inloggning mot Skolverkets provtjänst.
 
-**1. Vi har konfigurerat vår IDP för inloggning mot Fidustest men användarens EPPN (eduPersonPrincipalName) stoppas i Provtjänstens åtkomstgateway och kommer inte fram till Fidustest.**\
+**1. Vi har konfigurerat vår IDP för inloggning mot Fidustest men användarens EPPN (eduPersonPrincipalName) stoppas i Provtjänstens åtkomstgateway och kommer inte fram till Fidustest.**
 
 **Svar:**\
 Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:
