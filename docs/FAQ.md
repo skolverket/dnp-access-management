@@ -24,3 +24,16 @@ Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:
 \
 **Svar:**\
 Ett vanligt fel när inte flödet för egen IDP med ansluten e-legitimation fungerar är att stödet inte deklarerat korrekt i federationens metadata. Kontrollera att deklarationen överensstämmer med nedanstående:\
+
+*\<EntityDescriptor xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#"
+xmlns:saml=\"urn:oasis:names:tc:SAML:2.0:assertion"
+xmlns:shibmd=\"urn:mace:shibboleth:metadata:1.0"
+entityID=\"http://idp.exempel.se/">*
+    
+*\<Extensions\>\<mdattr:EntityAttributes
+xmlns:mdattr=\"urn:oasis:names:tc:SAML:metadata:attribute">\<saml:Attribute
+Name=\"urn:oasis:names:tc:SAML:attribute:assurance-certification\"
+NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\>\<saml:AttributeValue\>https://fidus.skolverket.se/authentication/e-leg</saml:AttributeValue\>\</saml:Attribute\>\</mdattr:EntityAttributes\>\
+\</Extensions\>*
+
+**Obs! Deklarationen måste finnas i \<Extensions\> direkt under \<EntityDescriptor\>. Finns deklarationen längre ner under \<IDPSSODescriptor\> så kommer den inte användas.**
