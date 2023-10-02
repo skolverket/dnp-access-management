@@ -12,7 +12,7 @@ Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:\
     I det första fallet är det viktigt att scopet på användarens EPPN dvs det som kommer efter @ stämmer med det som deklarerats i IDP-metadatat. Endast EPPN med scope som finns deklarerade kommer släppas igenom Provtjänstens
     Åtkomstgateway.\
     \
-    I det andra fallet så kontrollera att det SAML-intyg som ställs ut av IDPn ser ut enligt nedan:\
+    I det andra fallet så kontrollera att det SAML-intyg som ställs ut av IDPn har Name och NameFormat enligt nedan:\
     \
     *FriendlyName=\"eduPersonPrincipalName\",\
     Name=\"urn:oid:1.3.6.1.4.1.5923.1.1.1.6\" samt
