@@ -38,4 +38,11 @@ Name=\"urn:oasis:names:tc:SAML:attribute:assurance-certification\"
 NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\>\<saml:AttributeValue\>https://fidus.skolverket.se/authentication/e-leg</saml:AttributeValue\>\</saml:Attribute\>\</mdattr:EntityAttributes\>\
 \</Extensions\>*
 
-**Obs! Deklarationen måste finnas i \<Extensions\> direkt under \<EntityDescriptor\>. Finns deklarationen längre ner under \<IDPSSODescriptor\> så kommer den inte användas.**
+**Obs!**\
+Deklarationen måste finnas i \<Extensions\> direkt under \<EntityDescriptor\>. Finns deklarationen längre ner under \<IDPSSODescriptor\> så kommer den inte användas.\
+\
+**3. Vi har deklarerat WantAuthnRequestsSigned=“true” på IDPSSODescriptorn i vårt IDP-metadata men Provtjänstens åtkomstgateway signerar ändå inte autentiseringsbegäran.**\
+\
+**Svar:**\
+Provtjänstens åtkomstgateway stödjer inte signering av autentiseringsbegäran. Det är inte heller något krav enligt SAML specifikationen eller federationen FIDUS. Vi rekommenderar därför att flaggan inte används i metadatat.
+
