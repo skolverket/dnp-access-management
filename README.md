@@ -36,7 +36,7 @@ godkänd av DIGG på tillitsnivå 2, 3 eller 4. Observera att checklistan för i
 Den här checklistan riktar sig till alla skolhuvudmän som ska använda eduID som e-legitimation. Observera att checklistan för Inloggning utan e-legitimation bör gås igenom före denna checklista.
 
 ## FAQ
-Här samlar vi svar på vanliga förekommande frågor och lösningar på problem som andra användare stött i samband med uppsättning av inloggning mot Skolverkets provtjänst.
+Här samlar vi svar på vanliga förekommande frågor och lösningar på problem som andra användare stött på i samband med uppsättning av inloggning mot Skolverkets provtjänst.
 >[Till FAQ](./docs/FAQ.md)
 
 
