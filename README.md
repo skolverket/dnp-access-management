@@ -20,7 +20,7 @@ Används för tester mot FIDUS i produktion dvs samma tekniska miljö som Skolve
 
 ## Tekniska checklistor för inloggning mot Skolverkets provtjänst
 
->[Checklista för inloggning med egen IDP utan e-legitimation](checklists/Inloggning%20med%20egen%20IDP%20utan%20e-legitimation.md)
+>[Checklista för inloggning med egen IDP utan e-legitimation](https://github.com/skolverket/dnp-access-management/blob/main/checklists/Inloggning%20med%20egen%20IDP%20utan%20e-legitimation.md)
 
 Den här checklistan riktar sig till alla skolhuvudmän med egen inloggningstjänst (IDP) som ska
 användas för inloggning mot provtjänsten.
