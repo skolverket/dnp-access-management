@@ -37,7 +37,7 @@ Den här checklistan riktar sig till alla skolhuvudmän som ska använda eduID s
 
 ## FAQ
 Här samlar vi svar på vanliga förekommande frågor och lösningar på problem som andra användare stött på i samband med uppsättning av inloggning mot Skolverkets provtjänst.
->[Till FAQ](https://github.com/skolverket/dnp-access-management/blob/tomasericsson70-patch-1/docs/FAQ.md)
+>[Till FAQ](https://github.com/skolverket/dnp-access-management/blob/main/docs/FAQ.md)
 
 
 ## Mer information om åtkomst för skolpersonal till Skolverkets provtjänst 
