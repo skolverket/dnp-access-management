@@ -13,7 +13,7 @@ e-legitimation**
     c.  Att Skolhuvudmannens IDP har egen förmåga att hantera
         signalering enligt DIGG:s definitioner i Sweden Connect eller
         använder en IDP-proxy som har den förmågan. Mer information om
-        signalering [här](docs/Signalering av tillitsnivå till Skolverkets provtjänst vid inloggning med e-legitimation.pdf)
+        signalering [här](https://github.com/skolverket/dnp-access-management/blob/main/docs/Signalering%20av%20tillitsniva%CC%8A%20till%20Skolverkets%20provtja%CC%88nst%20vid%20inloggning%20med%20e-legitimation.pdf)
 
     d.  Att Skolhuvudmannens personal vet hur e-legitimationen fungerar
         och används.
