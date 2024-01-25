@@ -2,7 +2,7 @@
 
 1.  Grundförutsättningen för att inloggningen mot provtjänsten ska
     fungera är att Skolhuvudmannen har tillgång till en egen
-    inloggningstjänst (IDP) som är ansluten till federation som är
+    inloggningstjänst (IdP) som är ansluten till federation som är
     medlem av interfederationen FIDUS.
 
 2.  Provtjänstens Åtkomstgateway (med
@@ -20,7 +20,7 @@
     NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"*\
     \
     **OBS!**\
-    **För Google och andra IdPer där NameFormat inte kan anges använd Name=\"eduPersonPrincipalName\".**
+    **För Google och andra IdPer där NameFormat inte kan anges använd endast Name=\"eduPersonPrincipalName\".**
 
 5.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
@@ -36,9 +36,9 @@
     \</Extensions\>*\
     \
     **OBS!**\
-    För att det ska fungera så är viktigt att *scope* i EPPN stämmer med
+    För att det ska fungera så är viktigt att *scope* i eduPersonPrincipalName stämmer med
     det som deklarerats. Felaktigt uppsatt så kommer Provtjänstens
-    Åtkomstgateway inte släppa igenom användarens EPPN till provtjänsten
+    Åtkomstgateway inte släppa igenom användarens eduPersonPrincipalName till provtjänsten
     och användaren kommer inte lyckas med inloggningen.
 
 6.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
