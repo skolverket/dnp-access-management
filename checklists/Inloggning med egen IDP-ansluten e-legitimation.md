@@ -1,16 +1,16 @@
-**Checklista för inloggning <ins>med</ins> egen IdP-ansluten
+**Checklista för inloggning <ins>med</ins> egen IDP-ansluten
 e-legitimation**
 
-1.  Grundförutsättningar för att inloggning med egen IdP-ansluten
+1.  Grundförutsättningar för att inloggning med egen IDP-ansluten
     e-legitimation ska fungera är;
 
     a.  Inloggning <ins>utan</ins> e-legitimation inloggning fungerar
         enligt checklista och tekniskt verifieringstest
 
-    b.  Att IdP har en DIGG-godkänd e-legitimation på tillitsnivå 2, 3
+    b.  Att IDP har en DIGG-godkänd e-legitimation på tillitsnivå 2, 3
         eller 4 ansluten.
 
-    c.  Att Skolhuvudmannens IdP har egen förmåga att hantera
+    c.  Att Skolhuvudmannens IDP har egen förmåga att hantera
         signalering enligt DIGG:s definitioner i Sweden Connect eller
         använder en IdP-proxy som har den förmågan. Mer information om
         signalering [här](https://github.com/skolverket/dnp-access-management/blob/main/docs/Signalering%20av%20tillitsniva%CC%8A%20till%20Skolverkets%20provtja%CC%88nst%20vid%20inloggning%20med%20e-legitimation.pdf)
@@ -18,9 +18,9 @@ e-legitimation**
     d.  Att Skolhuvudmannens personal vet hur e-legitimationen fungerar
         och används.
 
-2.  IdP-metadata i FIDUS måste deklarera att den egna
+2.  IDP-metadata i FIDUS måste deklarera att den egna
     inloggningstjänsten har en direktansluten godkänd e-legitimation.
-    Detta deklareras i IdP-metadatat som *Extensions* direkt efter
+    Detta deklareras i IDP-metadatat som *Extensions* direkt efter
     elementet *EntityDescriptor*, se exempel;\
     \
     *\<EntityDescriptor xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#"
@@ -34,7 +34,7 @@ e-legitimation**
     NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"\>\<saml:AttributeValue\>https://fidus.skolverket.se/authentication/e-leg</saml:AttributeValue\>\</saml:Attribute\>\</mdattr:EntityAttributes\>\
     \</Extensions\>*
 
-4.  Provtjänstens åtkomstgateway kommer i autentiseringsbegäran till IdP
+4.  Provtjänstens åtkomstgateway kommer i autentiseringsbegäran till IDP
     att skicka en lista med tillitsnivåer (Requested Authentication
     Context) som är godkända att använda. Se exempel på lista;\
     \
@@ -53,7 +53,7 @@ e-legitimation**
     \</ns0:RequestedAuthnContext\>*\
     \
     \
-    Efter inloggning med godkänd e-legitimation så svarar IdPn med den
+    Efter inloggning med godkänd e-legitimation så svarar IDPn med den
     tillitsnivå som användes vid inloggningen. Se exempel;\
     \
     *\<saml2:AuthnStatement AuthnInstant=\"2023-09-13T09:54:02Z\"\>
@@ -62,7 +62,7 @@ e-legitimation**
     \</saml2:AuthnContext\> \</saml2:AuthnStatement\>*\
     \
     **Obs!**\
-    En IdP som inte har granskats och godkänts av DIGG ska använda en
+    En IDP som inte har granskats och godkänts av DIGG ska använda en
     ACCR med prefixet uncertified- när en av DIGG godkänd e-legitimation
     används. Uncertified är alltså att betrakta som normalfallet då
     Skolverket inte kräver att Skolhuvudmannens IdP är granskad, endast
