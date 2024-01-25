@@ -20,7 +20,7 @@
     NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"*\
     \
     **OBS!**\
-    För Google och andra IdPer där NameFormat inte kan anges använd Name=\"eduPersonPrincipalName\".
+    **För Google och andra IdPer där NameFormat inte kan anges använd Name=\"eduPersonPrincipalName\".**
 
 5.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
