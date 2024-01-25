@@ -20,7 +20,7 @@ Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:\
     \
     För att det ska fungera korrekt så är viktigt att NameFormat används.\
     \
-    (En nödlösning som visat sig fungera om inte NameFormat kan konfigureras i IDP är att skicka Name=\"eduPersonPrincipalName\" utan NameFormat.)\
+    (För Google och andra IDPer där NameFormat inte kan anges så ange endast Name=\"eduPersonPrincipalName\")\
     \
 **2. Vi har en godkänd e-legitimation ansluten till vår IDP men när Skolpersonalen loggar in så blir det bara vanlig inloggning med användarnamn och lösenord, och dom kommer då inte in i Provtjänsten**\
 \
