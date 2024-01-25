@@ -2,7 +2,7 @@
 
 1.  Grundförutsättningen för att inloggningen mot provtjänsten ska
     fungera är att Skolhuvudmannen har tillgång till en egen
-    inloggningstjänst (IdP) som är ansluten till federation som är
+    inloggningstjänst (IDP) som är ansluten till federation som är
     medlem av interfederationen FIDUS.
 
 2.  Provtjänstens Åtkomstgateway (med
