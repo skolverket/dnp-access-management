@@ -20,10 +20,7 @@
     NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"*\
     \
     **OBS!**\
-    För att det ska fungera så är viktigt att NameFormat används.
-    Felaktigt uppsatt så kommer Provtjänstens Åtkomstgateway inte släppa
-    igenom användarens EPPN till provtjänsten och användaren kommer inte
-    lyckas med inloggningen. En nödlösning som visat sig fungera om inte NameFormat kan konfigureras i IDP är att skicka Name=\"eduPersonPrincipalName\" utan NameFormat.
+    För Google och andra IdPer där NameFormat inte kan anges använd Name=\"eduPersonPrincipalName\".
 
 5.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
