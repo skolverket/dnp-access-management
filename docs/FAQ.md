@@ -18,8 +18,6 @@ Två vanliga fel när EPPN stoppas i Provtjänstens åtkomstgateway är:\
     Name=\"urn:oid:1.3.6.1.4.1.5923.1.1.1.6\" samt
     NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"*\
     \
-    För att det ska fungera korrekt så är viktigt att NameFormat används.\
-    \
     (För Google och andra IDPer där NameFormat inte kan anges så ange endast Name=\"eduPersonPrincipalName\")\
     \
 **2. Vi har en godkänd e-legitimation ansluten till vår IDP men när Skolpersonalen loggar in så blir det bara vanlig inloggning med användarnamn och lösenord, och dom kommer då inte in i Provtjänsten**\
