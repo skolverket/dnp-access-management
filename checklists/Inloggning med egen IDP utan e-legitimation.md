@@ -22,7 +22,9 @@
     **OBS!**\
     **För Google och andra IdPer där NameFormat inte kan anges använd endast Name=\"eduPersonPrincipalName\".**
 
-5.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
+    *Name=\"eduPersonPrincipalName\"*
+
+6.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
     IDP-metadatat som *Extensions* direkt efter elementet
     *IDPSSODescriptor*, se exempel;\
@@ -41,5 +43,5 @@
     Åtkomstgateway inte släppa igenom användarens eduPersonPrincipalName till provtjänsten
     och användaren kommer inte lyckas med inloggningen.
 
-6.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
+7.  Genomför ett tekniskt verifieringstest för att se att det fungerar på Skolverkets testtjänst
     **[här](https://fidustest.skolverket.se/DNP/)**
