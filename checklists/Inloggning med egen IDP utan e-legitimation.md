@@ -22,8 +22,6 @@
     **OBS!**\
     **För Google och andra IdPer där NameFormat inte kan anges använd endast Name=\"eduPersonPrincipalName\".**
 
-    *Name=\"eduPersonPrincipalName\"*
-
 6.  Det EPPN som används måste ha ett *scope* som överensstämmer med de
     *scope* som deklarerats i FIDUS metadata. *Scope* deklareras i
     IDP-metadatat som *Extensions* direkt efter elementet
