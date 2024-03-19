@@ -51,8 +51,7 @@ Grundförutsättningen för att personal ska kunna ansluta sig till Skolverkets 
 >[Läs mer om kravet för skolpersonals åtkomst och signalering av tillitsnivå](https://github.com/skolverket/dnp-access-management/blob/9b23ec8b215df76415846c92deabedb8f1879288/docs/Signalering%20av%20tillitsniva%CC%8A%20till%20Skolverkets%20provtja%CC%88nst%20vid%20inloggning%20med%20e-legitimation.pdf)
 
 **Notera att arbetet med digitala nationella prov (DNP) är ett pågående projekt och att
-materialet i DNP användarhantering uppdateras kontinuerligt.** Det är inte fastställd
-information från Skolverket, utan dokumenten kommer att uppdateras.
+materialet i DNP användarhantering kan komma att uppdateras.**
 
 ## Kontakt
 https://www.skolverket.se/kontakt
