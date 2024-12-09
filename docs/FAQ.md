@@ -44,3 +44,9 @@ Deklarationen måste finnas i \<Extensions\> direkt under \<EntityDescriptor\>. 
 **Svar:**\
 Provtjänstens åtkomstgateway stödjer inte signering av autentiseringsbegäran. Det är inte heller något krav enligt SAML specifikationen eller federationen FIDUS. Vi rekommenderar därför att flaggan inte används i metadatat.
 
+**4. Användare upplever att dom inte loggas ut ur Provtjänsten efter att ha klickat Logga ut.**\
+\
+**Svar:**\
+Problemet beror sannolikt på att användarens IdP inte respekterar sk ForceAuthn=True i SAML-begäran som talar om för IdPn att en ny inloggning skall krävas för att få åtkomst till Provtjänsten. Om användaren då har kvar en giltig session mot IdPn så kommer IdPn ge åtkomst utan att användaren behöver logga in på nytt.
+
+
