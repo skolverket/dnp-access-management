@@ -1,14 +1,11 @@
 # dnp-access-management
-Skolverket digitaliserar de nationella proven (DNP).
-
-I Skolverkets bibliotek DNP åtkomsthantering finns dokumentation som
-beskriver hur åtkomst hanteras i Skolverkets provtjänst.
+I Skolverkets bibliotek DNP åtkomsthantering finns dokumentation som beskriver hur åtkomst hanteras i Skolverkets provtjänst för digitala nationella prov (DNP).
 
 ## Testmiljö för tester av inloggning mot Skolverkets provtjänst
 
-Skolverket tillhandahåller en testmiljö för tekniska verifieringstester där inloggning mot provtjänsten kan testas för olika scenarion med och utan e-legitimation. Ingången för testerna är Fidustest som är en service provider som ingår både i federationerna FIDUS (produktion) och FIDUS Test. Se länkar under bild.
+Skolverket tillhandahåller en testmiljö för tekniska verifieringstester där inloggning mot provtjänsten kan testas för olika scenarion med och utan e-legitimation. Ingången för testerna är Fidustest som är en service provider som ingår både i federationerna FIDUS Produktion och FIDUS Test. Se länkar under bilden.
 
-![Testmiljö](./images/fidustest.png)
+![Testmiljö](./images/Fidustest ver 2.0.png)
 
 >https://fidustest.skolverket.se/DNP/
 
