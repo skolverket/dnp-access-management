@@ -49,4 +49,7 @@ Provtjänstens åtkomstgateway stödjer inte signering av autentiseringsbegäran
 **Svar:**\
 Problemet beror sannolikt på att användarens IdP inte respekterar sk ForceAuthn=True i SAML-begäran som talar om för IdPn att en ny inloggning skall krävas för att få åtkomst till Provtjänsten. Om användaren då har kvar en giltig session mot IdPn så kommer IdPn ge åtkomst utan att användaren behöver logga in på nytt.
 
-
+**5. Vi använder egen inloggningstjänst samt eduID som e-legitimation (e-leg "step-up") men lyckas inte logga in till Provplattformen eller till Fidustest med e-leg.**\
+\
+**Svar:**\
+Problemet kan bero på att ni har deklarerat stöd för e-leg för er huvudmanna-IdP i Fidus metadata. Det medför i så fall att "step-up" funktionaliteten inte träder i kraft. Om ni kan logga in med e-leg till Fidustest men inte till Provplattformen kan det bero på felaktig provisionering. Säkerställ att ni har provisionerat id-länkningen, dvs både EPPN för huvudmanna-IDP samt EPPN för  eduID.
