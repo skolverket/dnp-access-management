@@ -49,4 +49,27 @@ Provtjänstens åtkomstgateway stödjer inte signering av autentiseringsbegäran
 **Svar:**\
 Problemet beror sannolikt på att användarens IdP inte respekterar sk ForceAuthn=True i SAML-begäran som talar om för IdPn att en ny inloggning skall krävas för att få åtkomst till Provtjänsten. Om användaren då har kvar en giltig session mot IdPn så kommer IdPn ge åtkomst utan att användaren behöver logga in på nytt.
 
+**5. Inloggning misslyckas efter certifikatbyte i IdP (t.ex. Google Workspace)**
 
+**Symptom:**
+* Inloggning mot Fidustest eller Provplattformen misslyckas.
+* Fel vid SAML-validering (t.ex. “invalid signature”).
+* Fungerade tidigare men slutade fungera i samband med certifikatändringar hos IdP.
+
+**Orsak:**\
+En orsak kan vara att IdP har börjat signera SAML-biljetter med ett **nytt certifikat**, medan **metadata i federationen fortfarande innehåller det gamla certifikatet**. Detta leder till att SP (t.ex. DNP) inte kan verifiera signaturen.
+
+**Kontroll:**
+1. Gör en SAML-spårning (t.ex. via webbläsartillägg såsom SAML-tracer).
+2. Extrahera certifikatet från `<ds:Signature>`.
+3. Jämför med certifikatet i metadata: <md:KeyDescriptor use="signing"> - Om certifikaten skiljer sig → mismatch.
+
+**Åtgärd:**
+* Uppdatera IdP-metadata så att rätt signing-certifikat publiceras.
+* Vänta upp till 2 timmar så att det uppdaterade metadatat har propagerats ut överallt.
+* Säkerställ att metadata innehåller det certifikat som faktiskt används för signering.
+* Verifiera med ett inloggningstest, och vid behov SAML-spårning, **efter** förändringen har slagit igenom.
+
+**Rekommendation (best practice):**
+* Använd **certifikat-rollover**, dvs publicera både gammalt och nytt certifikat i metadata under en övergångsperiod.
+* Uppdatera metadata **innan** IdP börjar använda nytt certifikat.
